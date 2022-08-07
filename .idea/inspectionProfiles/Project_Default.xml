@@ -1,0 +1,64 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="52" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E127" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="smart_routine.models.Duration.objects" />
+          <option value="smart_routine.models.Purpose.objects" />
+          <option value="smart_routine.models.Trouble.objects" />
+          <option value="smart_routine.models.MuscleGroup.objects" />
+          <option value="smart_routine.models.TrainingNum.objects" />
+          <option value="smart_routine.models.StrengthLevel.objects" />
+          <option value="smart_routine.models.SmartRoutineRequest.objects" />
+          <option value="smart_routine.models.SmartRoutineResponse.*" />
+          <option value="smart_routine.models.RejectedSmartRoutineResponse.*" />
+          <option value="smart_routine.models.CreatedSmartTraining.*" />
+          <option value="smart_routine.models.CreatedSmartRoutine.*" />
+          <option value="model_data.models.TrainingModel.*" />
+          <option value="users.models.UserSplit.*" />
+          <option value="users.models.UserSmartRoutineFactor.*" />
+          <option value="users.models.UserSmartTraining.*" />
+          <option value="users.models.UserMuscleGroup.*" />
+          <option value="smart_routine.models.MuscleGroupTemplate.*" />
+          <option value="users.models.User.objects" />
+          <option value="chats.models.ChatMessage.objects" />
+          <option value="chats.models.Chat.objects" />
+          <option value="users.models.UserSmartRoutineSetting.objects" />
+          <option value="gyms.models.Gym.objects" />
+          <option value="gyms.models.EquipmentModel.objects" />
+          <option value="gyms.models.GymEquipmentModel.objects" />
+          <option value="users.models.UserGym.objects" />
+          <option value="users.models.UserEquipmentModel.objects" />
+          <option value="gyms.tests.TestGymTools.client" />
+          <option value="gyms.tests.TestGymTools.gym_url" />
+          <option value="gyms.tests.TestGymTools.assertEqual" />
+          <option value="gyms.tests.TestGymTools.gym_equipment_url" />
+          <option value="gyms.tests.TestGymTools.user_gym_url" />
+          <option value="histories.models.Workouthistory.objects" />
+          <option value="users.models.UserActionLogHistory.objects" />
+          <option value="chats.models.AutoMessageTask.objects" />
+          <option value="django.db.models.fields.json.JSONField.__getitem__" />
+          <option value="library.models.Book.objects" />
+          <option value="library.models.BookInfo.objects" />
+          <option value="library.models.BookList.objects" />
+          <option value="list.append" />
+          <option value="type.without_ui" />
+          <option value="type.with_ui" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
