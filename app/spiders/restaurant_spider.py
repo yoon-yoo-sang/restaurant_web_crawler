@@ -7,7 +7,7 @@ class RestaurantWebCrawler(scrapy.Spider):
 
     def start_requests(self):
         urls = [
-            'https://map.naver.com/v5/search/%ED%95%A9%EC%A0%95%EC%97%AD%EB%A7%9B%EC%A7%91/place/34393996?c=14126196.9109348,4516040.3185648,13,0,0,0,dh&placePath=%3Fentry%253Dpll'
+            "https://map.naver.com/v5/search/%ED%95%A9%EC%A0%95%EC%97%AD%EB%A7%9B%EC%A7%91/place/34393996?c=14126196.9109348,4516040.3185648,13,0,0,0,dh&placePath=%3Fentry%253Dpll"
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse_httpbin)
